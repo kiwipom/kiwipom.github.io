@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+ 2 <feed xmlns="http://www.w3.org/2005/Atom">
+ 3     <title>ifrb</title>
+ 4     <link href="http://ifrb.info/atom.xml" rel="self"/>
+ 5     <link href="http://ifrb.info/"/>
+ 6     <updated>{{ site.time | date_to_xmlschema }}</updated>
+ 7     <id>http://ifrb.info/</id>
+ 8     <author>
+ 9         <name>Ian Randall</name>
+10         <email>ihrandall@gmail.com</email>
+11     </author>
+12     {% for post in site.posts %}
+13     <entry>
+14         <title>{{ post.title }}</title>
+15         <link href="http://ifrb.info{{ post.url }}"/>
+16         <updated>{{ post.date | date_to_xmlschema }}</updated>
+17         <id>http://ifrb.info{{ post.id }}</id>
+18         <content type="html">{{ post.content | xml_escape }}</content>
+19     </entry>
+20     {% endfor %}
+21 </feed>
