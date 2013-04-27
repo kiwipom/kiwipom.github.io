@@ -168,6 +168,12 @@ aside a.button {
   font-size: 21px;
 }
 
+.twitter-follow-button {
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
@@ -484,7 +490,13 @@ footer a:hover {
     padding-right: 0;
     margin-left: 0;
   }
+  .twitter-follow-button {
+  position: relative;
+  top: 10px;
+  }
 }
+
+
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
