@@ -177,6 +177,11 @@ aside a.button {
 em {
   font-style: italic;
 }
+
+strong {
+  font-weight: bold;
+}
+
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
