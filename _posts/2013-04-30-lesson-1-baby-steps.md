@@ -3,7 +3,7 @@ layout: post
 title: Lesson 1. The easy stuff.
 ---
 
-# Starting out
+### Starting out
 
 Having established that functional programming is the very cat's pyjamas, and that if I'm going to learn any language, [I may as well try and learn Haskell](/2013/04/26/learning-me-a-haskell.html), I just need to do a couple of things.
 
