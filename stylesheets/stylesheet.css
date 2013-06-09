@@ -33,6 +33,15 @@ body {
 ol, ul {
 	list-style: none;
 }
+.tag-item {
+  display: inline;
+  font-style: italic;
+  color: #2879d0;
+}
+li:before {
+  content: "#";
+  padding-right: 1px;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -352,7 +361,7 @@ blockquote {
 
 ul li {
   list-style: disc inside;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 ol li {
