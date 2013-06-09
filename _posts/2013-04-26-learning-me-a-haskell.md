@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Learning me a haskell for great good
+tags:
+- haskell
 ---
 
 Codemania was wonderful. Sure I was bound to say that: I'm biased; but it truly was. A personal highlight for me was [this amazing talk](http://www.youtube.com/watch?v=MlZCiiKGbb0) by [Katie Miller](http://codemiller.com).

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Compiling less on a Windows Azure website
+tags:
+- less
+- windowsazure
 ---
 
 

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: The inherent evils of Inheritance
+tags:
+- inheritance
+- dogmatism
 ---
 
 These days, it feels like every time I open twitter someone is telling me I should *on every occasion* choose composition over inheritance.

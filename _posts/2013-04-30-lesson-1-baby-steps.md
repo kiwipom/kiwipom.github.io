@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Lesson 1. The easy stuff.
+tags:
+- haskell
 ---
 
 ### Starting out
