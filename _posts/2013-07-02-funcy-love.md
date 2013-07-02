@@ -15,9 +15,10 @@ Consider the following example: We want to cache requests to a service, and the 
       * cache the returned data
     - return the result
     
-This pattern may repeat again and again, but you can't abstract the repetitive bits because of that pesky "get the data" piece in the middle of the call, right?
+This pattern may repeat again and again, but the code to get the data will be different each and every time, which means that we can't abstract the caching, because the 'get' is right in the middle... right?
+  
 
-####Func-y time!
+####Time to get Func-y!
 
 
 Let's say your initial implementation looked like this:
