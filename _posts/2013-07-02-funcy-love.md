@@ -41,7 +41,7 @@ We can see that `_cacheService.Get` and `_cacheService.Add` would be easy to abs
 Personally, I would extend the cache service to do this work; I wouldn't add a method to the `ICacheService` interface, because then anyone who wanted to implement caching would have to implement that method. I'd do it as an extension method like this:
 
 
-    public static void FuncyExtensions
+    public static class FuncyExtensions
     {
         public T RetrieveAndCache<T>(this ICacheService cacheService, string cacheKey, Func<T> retrieve)
         {
