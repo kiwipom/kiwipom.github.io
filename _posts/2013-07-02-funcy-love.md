@@ -23,7 +23,7 @@ This pattern may repeat again and again, but the code to get the data will be di
 
 Let's say your initial implementation looked like this:
 
-    public void GetOrders(int customerId)
+    public IEnumerable<Order> GetOrders(int customerId)
     {
         string cacheKey = string.Format("OrdersForCustomer{0}", customerId);
         
@@ -43,7 +43,7 @@ Personally, I would extend the cache service to do this work; I wouldn't add a m
 
     public static void FuncyExtensions
     {
-        public void T RetrieveAndCache<T>(this ICacheService cacheService, string cacheKey, Func<T> retrieve)
+        public T RetrieveAndCache<T>(this ICacheService cacheService, string cacheKey, Func<T> retrieve)
         {
             var result = cacheService.Get<T>(cacheKey);
             if (result == null)
@@ -58,7 +58,7 @@ Personally, I would extend the cache service to do this work; I wouldn't add a m
     
 So now, our GetOrders code looks like:
 
-    public void GetOrders(int customerId)
+    public IEnumerable<Order> GetOrders(int customerId)
     {
         string cacheKey = string.Format("OrdersForCustomer{0}", customerId);
         
