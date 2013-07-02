@@ -18,7 +18,7 @@ Consider the following example: We want to cache requests to a service, and the 
 This pattern may repeat again and again, but the code to get the data will be different each and every time, which means that we can't abstract the caching, because the 'get' is right in the middle... right?
   
 
-####Time to get Func-y!
+####Time to get Func-y
 
 
 Let's say your initial implementation looked like this:
@@ -38,7 +38,7 @@ Let's say your initial implementation looked like this:
     
 We can see that `_cacheService.Get` and `_cacheService.Add` would be easy to abstract, but what about the call to the repository? Well, that is simply code that returns an `IEnumerable<Order>` and can be expressed with a `Func<IEnumerable<Order>>`.
 
-Personally, I would extend the cache service to do this work; I wouldn't add a method to the ICacheService interface, because then anyone who wanted to implement caching would have to implement that method. I'd do it as an extension method like this:
+Personally, I would extend the cache service to do this work; I wouldn't add a method to the `ICacheService` interface, because then anyone who wanted to implement caching would have to implement that method. I'd do it as an extension method like this:
 
 
     public static void FuncyExtensions
