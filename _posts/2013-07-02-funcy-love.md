@@ -73,3 +73,12 @@ Et voila! The only code that's left in GetOrders is code that's concerned with a
 
 Much nicer, eh?
 
+
+### Update
+
+As Ivan points out, there is still code concerned with caching in the `GetOrders` implementation, even if it is minimal and the code is DRYer than the initial idiomatic C# version...
+
+Go read [his amazing](http://developer.greenbutton.com/make-my-func-the-higher-order-func/) follow-up post to take this to the next level - hold on to your hats, folks!
+
+
+
