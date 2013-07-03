@@ -18,7 +18,7 @@ Consider the following example: We want to cache requests to a service, and the 
 This pattern may repeat again and again, but the code to get the data will be different each and every time, which means that we can't abstract the caching, because the 'get' is right in the middle... right?
   
 
-####Time to get Func-y
+### Time to get Func-y
 
 
 Let's say your initial implementation looked like this:
@@ -62,7 +62,7 @@ So now, our GetOrders code looks like:
     {
         string cacheKey = string.Format("OrdersForCustomer{0}", customerId);
         
-        return _cacheService.RetrieveAndGet<IEnumerable<Order>>(cacheKey,
+        return _cacheService.RetrieveAndCache<IEnumerable<Order>>(cacheKey,
             () => {
                 return _ordersRepository.GetForCustomer(customerId);
             });
