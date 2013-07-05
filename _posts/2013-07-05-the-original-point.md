@@ -16,13 +16,16 @@ There were calls to [not do it](http://blog.computercraft.co.nz/2013/07/04/DontG
 [Simon](http://twitter.com/simoncropp) suggested [doing an IL version](https://twitter.com/SimonCropp/status/353078614444605441)…
 
 
+So, I'm delighted to see the conversation spark up around all this, and these are all excellent points, digging into the detail, and trying to fill the huge gaps I left, but…
+
+
 ### The original point of the post
 
-So here's my point that I worry might've got somewhat lost. Or maybe I didn't state it explicitly enough in the first place:
+Here's my point that I worry might've got somewhat lost. Or maybe I didn't state it explicitly enough in the first place:
 
 > Adding **just a sprinkling** of Func<> love to your C# code improves it.
 
-That's it! Taking idiomatic, imperitive C# and applying functional paradigms with `Func<>` and `Action<>` - just a tiny bit, just where it makes sense - makes the code:
+That's it! That's all I was trying to say: That taking idiomatic, imperitive C# and applying functional paradigms with `Func<>` and `Action<>` - just a tiny bit, just where it makes sense - makes the code:
 
 - DRYer
 - Easier to read
