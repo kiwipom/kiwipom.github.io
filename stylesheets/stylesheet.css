@@ -152,6 +152,16 @@ aside h2 {
   margin: 20px 0;
 }
 
+#allPosts, #allPosts tr, #allPosts td {
+  border: 0;
+}
+
+.postLink {
+  text-align: left;
+  margin: 0 5px 0 0;
+}
+
+
 a.button {
   width: 134px;
   height: 58px;
