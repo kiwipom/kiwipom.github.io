@@ -148,6 +148,10 @@ aside h2 {
   margin-bottom: 40px;
 }
 
+#license {
+  margin: 20px 0;
+}
+
 a.button {
   width: 134px;
   height: 58px;
