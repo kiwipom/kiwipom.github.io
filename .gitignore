@@ -1,4 +1,6 @@
 _site
 npm-debug.log
 
+Gemfile*
+
 *.DS_Store
