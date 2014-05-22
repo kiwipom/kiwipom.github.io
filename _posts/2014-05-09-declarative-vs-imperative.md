@@ -66,6 +66,9 @@ P.S. This function in Haskell would look like:
 
     sum (map (\x->x^2) [1,3..49])
 
+or you could even use a list comprehension, and the whole thing would be:
+
+    sum [ x^2 | x <- [1,3..49] ]
 
 You know. Just sayin'...
 
