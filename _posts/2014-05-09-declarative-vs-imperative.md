@@ -58,3 +58,15 @@ And in C#, this would look like:
 
 
 This code reads the way you think about the problem - cleaner, more intuitive, just better.
+
+
+---
+
+P.S. This function in Haskell would look like:
+
+    sum (map (\x->x^2) [1,3..49])
+
+
+You know. Just sayin'...
+
+
