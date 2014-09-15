@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Today I learnt...
+title: Today I learnt
 ---
 
 
