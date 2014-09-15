@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Today I learnt:
-tags:
-- XDocument
 ---
 
 
