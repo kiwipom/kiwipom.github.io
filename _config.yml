@@ -6,5 +6,5 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 future:      true
-markdown:    Kramdown
+markdown:    maruku
 permalink:   date
