@@ -3,8 +3,8 @@ layout: post
 title: Today I learnt:
 tags:
 - XDocument
-- titbits
 ---
+
 
 If you have an `XDocument` in memory, and you initialised it using code that looks like:
 
