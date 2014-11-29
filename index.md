@@ -6,10 +6,11 @@ title: ifrb by Ian Randall
 # Ramblings. Funtimes. Software.
 
 ### About the author:
-I've written code since the late 80's and professionally since 1997. A one-time XAML geek I currently work for [Spendvision](http://spendvision.com) as a C# / asp.net developer for our SaaS platform. 
+I've written code since the late 80's and professionally since 1997. By day I write C#, HTML, JavaScript and even a little SQL for [Pushpay](http://pushpay.com).
 
-I helped create [Codemania](http://codemania.co.nz) with m'buddy [Ben](http://ben.geek.nz). I'm constantly staggered that amazing people come to hear other amazing people talk about software every year. You guys are great.
+In the evening, when not plotting and planning for [Codemania](http://codemania.co.nz)<superscript>*</superscript> I'm learning more about Functional Programming - especially Haskell and F#. Speaking of which - I run the [Auckland F# meetup](http://www.meetup.com/Auckland-F-Programming-Meetup/).
 
 I do like the [twitters](http://twitter.com/kiwipom) but it's best to mute me at the weekend if you're not that into `#sportsball`.
 
 
+<p><superscript>*</superscript>The speaker line-up for 2015 is sensational - you should get a ticket now whilst you have a chance!</p>
