@@ -13,4 +13,4 @@ In the evening, when not plotting and planning for [Codemania](http://codemania.
 I do like the [twitters](http://twitter.com/kiwipom) but it's best to mute me at the weekend if you're not that into `#sportsball`.
 
 
-<p><superscript>*</superscript>The speaker line-up for 2015 is sensational - you should get a ticket now whilst you have a chance!</p>
+<p><superscript>*</superscript>2015 was a massive success. The plottings for making 2016 _Bigger And Better Than Ever_ is underway!</p>
